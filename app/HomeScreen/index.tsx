@@ -25,12 +25,12 @@ const HomeScreen = () => {
             setLoader(false);
             return;
         }
-        if (value.phoneNo.length < 10) {
+        if (value.phoneNo.length === 10) {
             window.alert("Provide valid phone no")
             setLoader(false);
             return;
         }
-        if (value.adharNo.length < 12) {
+        if (value.adharNo.length === 12) {
             window.alert("Provide valid adhar no");
             setLoader(false);
             return;
