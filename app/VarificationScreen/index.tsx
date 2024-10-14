@@ -57,7 +57,7 @@ const VarificationScreen = () => {
                     onChangeText={(e) => setName(e)}
                 />
                 <TextInput
-                    placeholder='Enter adhar no'
+                    placeholder='Enter aadhar no'
                     style={styles.inputField}
                     onChangeText={(e) => setAdhar(e)}
                     keyboardType="number-pad"

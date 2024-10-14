@@ -31,7 +31,7 @@ const HomeScreen = () => {
             return;
         }
         if (value.adharNo.length !== 12) {
-            window.alert("Provide valid adhar no");
+            window.alert("Provide valid aadhar no");
             setLoader(false);
             return;
         }
