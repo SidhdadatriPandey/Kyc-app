@@ -37,10 +37,11 @@ const VarificationScreen = () => {
             }
         } catch (err) {
             setLoader(false);
-
             console.error('Error fetching data:', err);
             window.alert('An error occurred while fetching the data');
         }
+        setName('');
+        setAdhar('');
     }
     if (loader) return <ActivityIndicator size='large' color="#0000ff" style={{
         flex: 1,
